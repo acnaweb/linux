@@ -10,16 +10,13 @@ wget https://nodejs.org/dist/v11.10.1/$NODE_FILE
 
 
 # uncompress
-rm -Rf $NODE_FOLDER
-tar -xJf $NODE_FILE 
+tar -xJf $NODE_FILE --directory /usr/local
 
-# move to /usr/local
-rm -Rf /usr/local/$NODE_FOLDER/
-mv $NODE_FOLDER/ /usr/local
 
 # create link
 ln -fs /usr/local/$NODE_FOLDER/ /opt/node
 
+chown -R ac:ac /usr/local/$NODE_FOLDER/
 chown -R ac:ac /opt/node
 
 echo 'export NODE_HOME=/opt/node' >> /home/ac/.bashrc

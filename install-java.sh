@@ -29,7 +29,7 @@ echo '' >> /etc/profile.d/jdk_home.sh
 echo 'export JAVA_HOME=/opt/jdk' >> /etc/profile.d/jdk_home.sh
 echo 'export JRE_HOME=/opt/jre' >> /etc/profile.d/jdk_home.sh
 echo 'export PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin' >> /etc/profile.d/jdk_home.sh
-source etc/profile.d/jdk_home.sh
+source /etc/profile.d/jdk_home.sh
 
 #remove openjdk
 rm -Rf /usr/bin/java

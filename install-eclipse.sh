@@ -5,7 +5,6 @@ ECLIPSE_FOLDER=eclipse
 DOWNLOAD_FOLDER=/home/ac/Downloads
 
 cd $DOWNLOAD_FOLDER
-wget https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2018-12/R/$ECLIPSE_FILE
 
 # uncompress
 rm -Rf $ECLIPSE_FOLDER
