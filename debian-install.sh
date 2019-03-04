@@ -25,6 +25,7 @@ apt install firmware-misc-nonfree
 dpkg --add-architecture i386
 apt install llvm-4.0 clang-4.0
 
+
 reboot
 
 # ifconfig, arq, netstat, rarp, nameif, route, traceroute
