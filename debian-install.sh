@@ -9,6 +9,9 @@ apt -y install make perl
 # apt install --fix-missing
 apt -y install build-essential
 
+apt-get install firmware-linux-nonfree
+apt-get install firmware-misc-nonfree
+
 # Lenovo
 # apt -y install firmware-atheros firmware-realtek
 
@@ -17,11 +20,12 @@ apt -y install build-essential
 # dpkg --force-all -P gcc-7-base
 # dpkg --force-all -P gcc-7-base:i386
 # aptitude install build-essential
-reboot
+
 
 sudo dpkg --add-architecture i386
 apt install llvm-4.0 clang-4.0
 
+reboot
 
 # ifconfig, arq, netstat, rarp, nameif, route, traceroute
 sudo apt -y install net-tools
