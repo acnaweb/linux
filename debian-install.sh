@@ -26,14 +26,17 @@ apt install llvm-4.0 clang-4.0
 # ifconfig, arq, netstat, rarp, nameif, route, traceroute
 sudo apt -y install net-tools
 
-# fix gpg: failed to start the dirmngr '/usr/bin/dirmngr': Arquivo ou diretório não encontrado
-sudo apt -y install dirmngr 
-
 # show open ports : nmap [ip]
 sudo apt -y install nmap
 
+# fix gpg: failed to start the dirmngr '/usr/bin/dirmngr': Arquivo ou diretório não encontrado
+sudo apt -y install dirmngr 
+
+# fix: Failed to load module "canberra-gtk-module"
+sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
+
 # Configuring the Firewall
-sudo apt -y install ufw
+# sudo apt -y install ufw
 
 
 echo 'deb http://ftp.debian.org/debian stretch-backports main' | sudo tee --append /etc/apt/sources.list.d/stretch-backports.list >> /dev/null
