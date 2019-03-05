@@ -8,9 +8,9 @@ DOWNLOAD_FOLDER=/home/ac/Downloads
 
 cd $DOWNLOAD_FOLDER
 
-java -jar $SQUIRREL_FOLDER/$SQUIRREL_FILE
+# java -jar $SQUIRREL_FOLDER/$SQUIRREL_FILE
 
-rm $SQUIRREL_FOLDER/squirrel.desktop
+# rm $SQUIRREL_FOLDER/squirrel.desktop
 
 echo '[Desktop Entry]' >> $SQUIRREL_FOLDER/squirrel.desktop
 echo 'Categories=' >> $SQUIRREL_FOLDER/squirrel.desktop
