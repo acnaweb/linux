@@ -25,6 +25,20 @@ apt install firmware-misc-nonfree
 dpkg --add-architecture i386
 apt -y install llvm-4.0 clang-4.0
 
-
 reboot
+
+
+# KVM emulator for Android Studio
+# https://wiki.debian.org/KVM
+apt install qemu-kvm libvirt-clients qemu-utils libvirt-daemon-system
+# adduser <youruser> libvirt
+# adduser <youruser> libvirt-qemu
+
+# adduser ac libvirt
+# adduser ac libvirt-qemu
+virsh list --all
+# Android test - $HOME/Android/Sdk/tools/emulator -accel-check
+
+
+
 
