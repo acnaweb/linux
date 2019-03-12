@@ -20,7 +20,7 @@ ln -fs /usr/local/$ECLIPSE_FOLDER/ /opt/$ECLIPSE_FOLDER
  
 chown -R ac:ac /opt/$ECLIPSE_FOLDER
 
-echo '[Desktop Entry]' >> /opt/$ECLIPSE_FOLDER/eclipse.desktop
+echo '[Desktop Entry]' > /opt/$ECLIPSE_FOLDER/eclipse.desktop
 echo 'Categories=' >> /opt/$ECLIPSE_FOLDER/eclipse.desktop
 echo 'Comment=IDE tool' >> /opt/$ECLIPSE_FOLDER/eclipse.desktop
 echo 'Comment[en]=IDE tool' >> /opt/$ECLIPSE_FOLDER/eclipse.desktop

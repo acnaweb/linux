@@ -30,7 +30,7 @@ reboot
 
 # KVM emulator for Android Studio
 # https://wiki.debian.org/KVM
-apt install qemu-kvm libvirt-clients qemu-utils libvirt-daemon-system
+apt install -y qemu-kvm libvirt-clients qemu-utils libvirt-daemon-system
 # adduser <youruser> libvirt
 # adduser <youruser> libvirt-qemu
 
@@ -38,6 +38,10 @@ apt install qemu-kvm libvirt-clients qemu-utils libvirt-daemon-system
 # adduser ac libvirt-qemu
 virsh list --all
 # Android test - $HOME/Android/Sdk/tools/emulator -accel-check
+
+
+apt -y install gconf2
+apt -y install libappindicator1
 
 
 
