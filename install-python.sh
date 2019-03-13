@@ -13,6 +13,7 @@ bash Anaconda3-5.2.0-Linux-x86_64.sh
 
 ln -fs /home/ac/Local/anaconda3/bin/python3.6 /usr/bin/
 ln -fs /home/ac/Local/anaconda3/bin/conda /usr/bin/
+ln -fs /home/ac/Local/anaconda3/bin/pip /usr/bin/
 
 
 
