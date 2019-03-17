@@ -26,4 +26,6 @@ apt -y install -t stretch-backports remmina remmina-plugin-rdp remmina-plugin-se
 apt -y install git
 apt -y install python-iniparse
 
+apt -y install libc6-i386
+
 
