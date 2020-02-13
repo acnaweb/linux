@@ -43,6 +43,9 @@ virsh list --all
 apt -y install gconf2
 apt -y install libappindicator1
 
+apt -y install linux-headers-amd64 
+apt -y install linux-headers-4.9.0-11-amd64
+
 
 
 
