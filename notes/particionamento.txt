@@ -1,0 +1,9 @@
+# Particionamento Sugerido
+
+swap 16G (16384 MB)
+UEFI 128 MB
+/     120G (122880 MB)
+/boot 1G
+/tmp 30G (30720 MB)
+/var 40G (40960 MB)
+/home 150G
